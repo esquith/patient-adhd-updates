@@ -24,6 +24,7 @@ group :development do
   gem 'pry-rails', '~> 0.3.9'
   gem 'rubocop-rails', '~> 2.19'
   gem 'web-console'
+  gem "rspec-rails", "~> 6.0"
 end
 
 group :test do
