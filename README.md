@@ -8,8 +8,19 @@ By leveraging this information, practitioners can better understand their patien
 
 Built with Rails 7 and ChatGPT, unless I change my mind later.
 
-## How to use
+## Setup
 
-To use the ChatGPT service directly in the rails console:
+1. Clone the repository
+
+2. Run `bundle install`
+
+3. Edit the Rails credentials file with your terminal:
+
+`EDITOR="nano" bin/rails credentials:edit`
+
+4. Add your [OpenAI API](https://platform.openai.com/account/api-keys) key to:
+`chatgpt_api_key: your-api-key-here`
+
+You should be able to now use the ChatGPT service directly in the rails console:
 
 `ChatgptService.call('What is your name?', 'gpt-3.5-turbo-0301')`
