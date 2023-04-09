@@ -1,6 +1,6 @@
 # Patient ADHD Updates [Prototype]
 
-This application will provide medical professionals with the ability to access and analyze data from their ADHD patients' Fitbit accounts.
+This application will provide medical professionals with the ability to access and analyze data from their ADHD patients' Fitbit/Apple Watch accounts.
 
 This should enable them to track critical aspects of their patients' wellbeing such as sleep patterns, medication adherence, and stress levels.
 
