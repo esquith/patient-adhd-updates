@@ -14,6 +14,7 @@ gem 'sqlite3', '~> 1.4'
 gem 'stimulus-rails'
 gem 'turbo-rails'
 gem "fitbit_api", "~> 0.15.1"
+gem "httparty", "~> 0.21.0"
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do

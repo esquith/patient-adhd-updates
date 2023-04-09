@@ -102,6 +102,9 @@ GEM
       oauth2 (~> 1.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.5)
@@ -284,6 +287,7 @@ DEPENDENCIES
   capybara
   debug
   fitbit_api (~> 0.15.1)
+  httparty (~> 0.21.0)
   importmap-rails
   jbuilder
   pry-rails (~> 0.3.9)
