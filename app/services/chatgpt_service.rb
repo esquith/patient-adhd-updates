@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This class uses the HTTParty gem to send a POST request to the ChatGPT API with a prompt, model, and other parameters.
 # It then parses the response and returns the text of the first choice.
 # The API key is stored in the credentials file
