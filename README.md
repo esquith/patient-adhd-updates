@@ -7,3 +7,9 @@ This should enable them to track critical aspects of their patients' wellbeing s
 By leveraging this information, practitioners can better understand their patients' needs and provide more effective treatment plans to help them manage their ADHD symptoms and achieve optimal health outcomes.
 
 Built with Rails 7 and ChatGPT, unless I change my mind later.
+
+## How to use
+
+To use the ChatGPT service directly in the rails console:
+
+`ChatgptService.call('What is your name?', 'gpt-3.5-turbo-0301')`
