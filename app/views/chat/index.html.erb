@@ -1,0 +1,8 @@
+<%= form_with(class: "mb-7") do |form| %>
+  <h1 class="text-2xl font-bold">Circle Medical Assistant</h1>
+
+  <div class="mb-5">
+    <%= form.text_field :description, placeholder: "How can we help you?", class: "inline-block w-96 px-3 py-2 mt-2 shadow rounded-md border border-gray-200 outline-none" %>
+    <%= form.submit "Submit", class: "btn py-2 ml-2 bg-blue-600 text-white" %>
+  </div>
+<% end %>
