@@ -27,6 +27,8 @@ You should be able to now use the ChatGPT service directly in the rails console:
 
 ## PM Notes
 
+[img]https://imgur.com/a/Vk3q5Xz[/img]
+
 - As a developer, creating a search feature for audiences in multiple languages can be complex. By using ChatGPT you can give the user the freedom to chat in multiple languages.
 
 - It is possible to narrow down ChatGPT's responses to a particular set of topics
