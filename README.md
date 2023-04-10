@@ -24,3 +24,14 @@ Built with Rails 7 and ChatGPT, unless I change my mind later.
 You should be able to now use the ChatGPT service directly in the rails console:
 
 `ChatgptService.call('What is your name?', 'gpt-3.5-turbo-0301')`
+
+## PM Notes
+
+- As a developer, creating a search feature for audiences in multiple languages can be complex. By using ChatGPT you can give the user the freedom to chat in multiple languages.
+
+- It is possible to narrow down ChatGPT's responses to a particular set of topics
+  - You can use this to give medical recommendations, or prompt the user to book an appointment with a particular practitioner based on their chat responses.
+
+For example, User says that they are having symptoms of ADHD. ChatGPT recognizes that, gives them a response, and the application recommends [this page](https://www.circlemedical.com/what-we-treat/adhd?)
+
+Alternatively, we could create a list of keywords that the bot recognizes as being medical, and a list of blacklisted words. If the user hits a medical term and no blacklisted words, send prompt to gpt. This is going to be less effective than the first method, but spend less tokens.
