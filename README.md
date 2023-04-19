@@ -32,7 +32,7 @@ Alternatively, we could create a list of keywords that the bot recognizes as bei
 
 ## Idea #2
 
-(Heres an idea that I scrapped because there was no way in hell I was going to do all of this in one weekend)
+(Heres an idea that I scrapped)
 
 - This application will provide medical professionals with the ability to access and analyze data from their ADHD patients' Fitbit/Apple Watch accounts.
   - This should enable them to track critical aspects of their patients' wellbeing such as sleep patterns, medication adherence, and stress levels.
